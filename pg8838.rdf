@@ -1,192 +1,192 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/8838">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17032</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:25.383299</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne1c1a48113ce4c13974b67f07891403a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          <rdf:Description rdf:nodeID="N82c877b42651447796e3e80fae07e476">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10950</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:06:43.178565</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N13b8b8bc5b5f45d6bf0f3221a62746be">
+        <rdf:value>Bible. Philippians</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86725</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2b5e8dde3b284cc9afe6f9b271d3496b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:48.290267</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N88248193aa244ff4b817e8ae516137c8">
+        <rdf:value>BS</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/8838/8838.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-14T15:03:14</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13467</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndba2fdae8c9846ac8959b509b4bfcb02">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4fb4997845764b539912918c56856145">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Ne9e79865c78d44059db98be48790ee21">
+      <rdf:Description rdf:nodeID="Ncc938fef4c2e47f1a9109ebb3f5f9b6c">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
     </dcterms:language>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:title>Weymouth New Testament in Modern Speech, Philippians</dcterms:title>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.rdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-04T05:39:08.718298</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.html.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:47.867270</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45051</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc6c9c9c09f5042ac8684a99f8c123450">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          <rdf:Description rdf:nodeID="N60cbb4095532449ca100959fff05a61b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10935</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/2897">
-        <pgterms:alias>Weymouth, R. F. (Richard Francis)</pgterms:alias>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</pgterms:birthdate>
-        <pgterms:name>Weymouth, Richard Francis</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1902</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Richard_Francis_Weymouth"/>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.kindle.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.txt.utf-8">
         <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:26.677231</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86724</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36740</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:47.804272</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4bda82c2f788466eba7052b297784231">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="Naa317f0001164e8e9c2193ec0331485e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-01</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.html.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45051</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:47.854266</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N17f30493fcab4ba7852ea6a6491fae4a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:title>Weymouth New Testament in Modern Speech, Philippians</dcterms:title>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N789145ed1cff4e34bc44e7cb1a5b0452">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/8838/8838.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-14T15:03:14</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:47.906266</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6f6a1fd5b8c24cd38a1958bab827b3ed">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17033</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13467</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N726359f40bc94ce5958365e8b2c37bee">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N744f1f9849aa40ad915a5e02ec510f24">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.kindle.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc56d9995d514485a5b871d6173a304a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86732</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:26.228255</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/8838/8838.txt">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36770</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N023635dd62b646ada680a623682a22b6">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N789d52192c1a4a14801ffd871e8a28ea">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-14T14:27:14</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N955363f444184f27b69108838b378067">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>BS</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.html.images">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17033</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45051</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:25.090317</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N4e6d4d2f17a646b2a2e1953f9d8585ba">
+          <rdf:Description rdf:nodeID="Na87ae457f4d84291a77da6988824a41d">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N652e9a072da84745a7776d52707a7fde">
-        <rdf:value>Bible. Philippians</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:25.287290</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba099346858043d1ae5a2667c0f2929a">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17032</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:47.937269</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-01</dcterms:issued>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.html.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45051</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:25.137311</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-05T01:28:48.112267</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N17e06960167a4613a60b11db702bfa37">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          <rdf:Description rdf:nodeID="N990f3f4b3dad43f8b4c7a5a79c24ba72">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86733</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N2a517045d3d34af6a7349fce5e89efcd">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/8838.txt.utf-8">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-05T02:29:24.798316</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N61f20b7203fe4038a76c600175ddf262">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36740</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/8838"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/2897">
+        <pgterms:alias>Weymouth, R. F. (Richard Francis)</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Richard_Francis_Weymouth"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1822</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1902</pgterms:deathdate>
+        <pgterms:name>Weymouth, Richard Francis</pgterms:name>
+      </pgterms:agent>
+    </dcterms:creator>
   </pgterms:ebook>
   <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
     <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
             http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
   </cc:Work>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Richard_Francis_Weymouth">
     <dcterms:description>Wikipedia</dcterms:description>
